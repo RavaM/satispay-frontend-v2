@@ -16,5 +16,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true
+  "private": true,
+  "resolutions": {
+    "graphql": "15.5.0"
+  }
 }

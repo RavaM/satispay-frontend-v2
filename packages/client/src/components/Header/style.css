@@ -1,0 +1,9 @@
+.header h1 {
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header.ant-layout-header {
+  padding: 0 20px;
+}

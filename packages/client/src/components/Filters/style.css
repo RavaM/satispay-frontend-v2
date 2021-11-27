@@ -1,0 +1,77 @@
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+form.ant-form-horizontal {
+  background-color: #DDE0E2;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.button {
+  flex: 1;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  transition: background 0.5s ease;
+}
+
+.switch-option-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.switch-option-container-header h3 {
+  margin-left: 8px;
+}
+
+.switch-option-container {
+  flex: 1;
+  align-self: stretch;
+  padding: 8px;
+}
+
+.switch-option-container-header:first-child {
+  align-items: center;
+}
+
+.switch-option-container:last-child .switch-option-container-header {
+  align-items: center;
+}
+
+.select {
+  width: 100%;
+}
+
+.ant-btn.search-button {
+  margin: 0 8px;
+  width: calc(100% - 16px);
+}
+
+div.ant-form-item {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .ant-btn.search-button {
+    width: 60px;
+    margin: 8px;
+  }
+}

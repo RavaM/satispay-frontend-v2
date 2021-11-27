@@ -1,0 +1,14 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button.ant-btn-primary {
+  max-width: 1000px;
+  margin: 0 auto;
+}
